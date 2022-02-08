@@ -1,0 +1,135 @@
+/* * is the universal selector */
+/* reset the browser */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&family=Syne+Tactile&display=swap');
+*{
+margin: 0;
+padding: 0;
+}
+/* The overall content body */
+body{
+    background: #edeef0;
+    font-size: 10px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+    list-style: none;
+    padding: 10px;
+}
+nav ul li{
+    margin: 0 20px;
+}
+
+.logo-image{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.nav-link{
+    font-size: 1.8em;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.nav-link:hover{
+    color: #f05136;
+}
+
+#home{
+    background: black;
+    color:white;
+    height: 450px;
+ display: flex;
+justify-content: center;
+align-items: center;
+}
+header div p{
+    font-size: 2.5em;
+    font-weight: 200;
+}
+
+h1,
+h3,
+h4{
+    font-weight: 700;
+}
+
+h2{
+    font-weight: 500;
+}
+
+h3{
+    font-size: 2.5em;
+}
+
+#bio{
+    display: flex;
+    align-items: center;
+}
+#bio article *{
+    margin: 20px;
+}
+
+.break{
+    display: block;
+}
+
+#bio img{
+    width: 230px;
+    height: 205px;
+    border-radius: 50%;
+    margin: 100px;
+}
+p{
+    font-size: 2em;
+}
+
+hr{
+    width: 400px;
+}
+
+#portfolio{
+    background-color: black;
+    color: white;
+}
+
+#portfolio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+
+#portfolio div{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0;
+    width: 100%;
+}
+#portfolio h3, p. hr{
+    margin-bottom: 20px;
+}
+
+#portfolio div article{
+    background: white;
+    color: black;
+    height: 200px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.developer-icon{
+    width:50px;
+    height: 50px;
+}
+
